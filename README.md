@@ -10,3 +10,12 @@ Utilisation de **Cache-Aside** comme stratégie du cache en utilisant **redis**.
 idempotency-key | résultat de traitement de paiement (requete POST)
 
 ![alt text](conception.png)
+
+## Utilisation
+```
+$ git clone git@github.com:izemaghilas/al-cc2.git
+$ cd al-cc2
+$ npm install
+$ npm start
+```
+envoi d'une requete POST en ajoutant le header **idempotency-key**, on utilisant ***Postman*** ou équivalent.
